@@ -1,0 +1,17 @@
+{
+  "name": "sample",
+  "version": "0.0.1",
+  "description": "sample",
+  "license": "MIT",
+  "dependencies": {
+    "testcafe": "1.18.6",
+    "http-server": "14.1.0"
+  },
+  "scripts": {
+    "start": "testcafe chrome examples --skip-js-errors -a \"npm run dependencies\"",
+    "dependencies": "node server/index.js & http-server"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0"
+  }
+}

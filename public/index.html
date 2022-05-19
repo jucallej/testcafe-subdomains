@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>test</title>
+</head>
+<body>
+Cookie
+<script type="text/javascript">
+	fetch("http://server.something.more.hammerhead.local:3000", {
+		credentials: 'include'
+	}).then((data) => console.log(data));
+</script>
+</body>
+</html>
